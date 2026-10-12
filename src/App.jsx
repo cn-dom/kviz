@@ -1005,7 +1005,7 @@ export default function App() {
       <div className="mx-auto flex max-w-[1400px] items-center justify-between gap-4 px-4 py-2.5 sm:px-6">
         <button onClick={home} className="patria-logo-button flex shrink-0 items-center text-left" aria-label="PatriaSoul početna">
           <span className="patria-brand-mark flex items-center">
-            <img src="https://raw.githubusercontent.com/Patriasoul/patriasoul/main/images/file_0000000082ec81f4a6fc17bdbd959622_114540.png" alt="PatriaSoul" className="patria-main-logo object-contain" />
+            <img src="https://raw.githubusercontent.com/cn-dom/cuvari-nasljeda/main/public/assets/images/1000000982.png" alt="PatriaSoul" className="patria-main-logo object-contain" />
           </span>
         </button>
 
@@ -1036,7 +1036,7 @@ export default function App() {
     </header>
 
     <div className="patria-portal-bar"><div className="mx-auto flex max-w-[1400px] items-center justify-between gap-4 px-4 py-3 sm:px-6"><div className="patria-quiz-title" aria-label="PatriaSoul Kviz - Hrvatska, povijest, znanje, identitet"><span className="patria-quiz-name">PatriaSoul Kviz</span><span className="patria-quiz-separator">-</span><span className="patria-quiz-tagline">Hrvatska · povijest · znanje · identitet</span></div><a href="https://cn-dom.github.io/ps/" className="patria-portal-button" aria-label="Povratak na PatriaSoul portal"><ArrowLeft className="h-5 w-5" /> Povratak na PatriaSoul portal</a></div></div>
-    {!isStandalone && <div className="patria-install-bar"><div className="mx-auto flex max-w-[1400px] items-center justify-between gap-3 px-4 py-2.5 sm:px-6"><div className="flex min-w-0 items-center gap-3"><img src="https://raw.githubusercontent.com/Patriasoul/patriasoul/main/images/file_0000000082ec81f4a6fc17bdbd959622_114540.png" alt="" className="patria-install-logo" /><div className="min-w-0"><p className="truncate text-sm font-bold text-white">Instaliraj PatriaSoul</p><p className="hidden text-xs text-white/55 sm:block">Pokreni kviz kao aplikaciju na računalu ili telefonu.</p></div></div><button onClick={installPatriaSoul} className="patria-install-button" aria-label="Instaliraj PatriaSoul">Instaliraj</button></div></div>}
+    {!isStandalone && <div className="patria-install-bar"><div className="mx-auto flex max-w-[1400px] items-center justify-between gap-3 px-4 py-2.5 sm:px-6"><div className="flex min-w-0 items-center gap-3"><img src="https://raw.githubusercontent.com/cn-dom/cuvari-nasljeda/main/public/assets/images/1000000982.png" alt="" className="patria-install-logo" /><div className="min-w-0"><p className="truncate text-sm font-bold text-white">Instaliraj PatriaSoul</p><p className="hidden text-xs text-white/55 sm:block">Pokreni kviz kao aplikaciju na računalu ili telefonu.</p></div></div><button onClick={installPatriaSoul} className="patria-install-button" aria-label="Instaliraj PatriaSoul">Instaliraj</button></div></div>}
     {installHelp && !isStandalone && <div className="mx-auto max-w-[1400px] px-4 pt-3 sm:px-6"><div className="patria-install-help"><strong>Instalacija nije dostupna automatski u ovom pregledniku.</strong> Na računalu potraži opciju <b>Instaliraj PatriaSoul</b> u izborniku preglednika. Na iPhoneu/iPadu odaberi <b>Dijeli → Dodaj na početni zaslon</b>.</div></div>}
     {authOpen && <div className="fixed inset-0 z-[100] flex items-start justify-center overflow-y-auto bg-black/75 px-4 py-4 sm:items-center sm:py-8" onClick={() => user && !authLoading && setAuthOpen(false)}>
       <div className="my-auto max-h-[calc(100vh-2rem)] w-full max-w-md overflow-y-auto rounded-2xl border border-border bg-card p-6 shadow-2xl sm:max-h-[calc(100vh-4rem)]" onClick={(e) => e.stopPropagation()}>
@@ -1591,7 +1591,7 @@ export default function App() {
           <div className="patria-footer-brand">
             <div className="patria-footer-logo-wrap">
               <img
-                src="https://raw.githubusercontent.com/Patriasoul/patriasoul/main/images/file_0000000082ec81f4a6fc17bdbd959622_114540.png"
+                src="https://raw.githubusercontent.com/cn-dom/cuvari-nasljeda/main/public/assets/images/1000000982.png"
                 alt="PatriaSoul"
                 className="patria-footer-logo"
               />
