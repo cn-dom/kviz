@@ -16,7 +16,7 @@ import { getCommunityComments, createCommunityComment, deleteCommunityComment, g
 const categories = [
   ["opce", "Hrvatsko opće znanje", "Raznoliko znanje o Hrvatskoj."],
   ["povijest", "Povijest Hrvatske", "Ključni događaji i osobe hrvatske povijesti."],
-  ["domovinski-rat", "Domovinski rat", "Sjećanje, znanje i povijesne činjenice."],
+  ["domovinski_rat", "Domovinski rat", "Sjećanje, znanje i povijesne činjenice."],
   ["geografija", "Geografija Hrvatske", "Gradovi, krajevi, otoci, rijeke i planine."],
   ["priroda", "Priroda Hrvatske", "Nacionalni parkovi i životinjski svijet."],
   ["bastina", "Kultura i baština", "Kultura, običaji i hrvatsko nasljeđe."],
